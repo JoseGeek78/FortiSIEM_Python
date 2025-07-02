@@ -34,4 +34,5 @@ plt.show()
 ruta_guardado = filedialog.asksaveasfilename(defaultextension=".png", title="Guardar gráfico como imagen", filetypes=[("PNG files", "*.png")])
 if ruta_guardado:
     plt.savefig(ruta_guardado, format='png')
-    print(f"Gráfico guardado en: {ruta_guardado}")
+    print(f"Gráfico guardado en: {ruta_guardado}")  
+    
